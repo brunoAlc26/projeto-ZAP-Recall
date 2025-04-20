@@ -1,0 +1,110 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+
+.pergunta {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5%;
+    padding: 10px;
+    height: 80px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.pergunta .texto {
+    /* color: red; */
+    font-size: 25px;
+    margin-left: 15px;
+}
+
+.pergunta.modo-resposta {
+    flex-direction: column;
+    height: auto;
+    min-height: 200px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.pergunta .imagem .botao {
+    height: 50;
+    margin-right: 15px;
+}
+
+
+.virar {
+    height: 200px;
+    background-color: #FFFFD4;
+}
+
+
+.lista_perguntas {
+    width: 50%;
+    height: 100%;
+    /* background-color: orange; */
+    overflow-y: auto;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.neutro {
+    width: 100%;
+    height: 50%;
+    /* ajusta como preferir */
+    background-color: #000000;
+    margin: 5px 0;
+    border-radius: 4px;
+}
+
+
+
+
+
+
+.botaoResposta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 50px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+.errada {
+    background-color: red;
+}
+.vermelha{
+    color: red;
+}
+
+.quase {
+    background-color: orange;
+}
+.laranja{
+    color: orange
+}
+
+.certa {
+    background-color: green;
+}
+.verde{
+    color: green;
+}
+
+.riscado {
+    text-decoration: line-through;
+}
